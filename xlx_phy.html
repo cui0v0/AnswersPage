@@ -4,13 +4,6 @@
     <meta charset="utf-8">
     <link href=".\resources\css\bootstrap.css" rel="stylesheet" type="text/css">
     <link href=".\resources\css\simpages.css" rel="stylesheet" type="text/css">
-<script type="text/javascript">
-var main=document.querySelector("select");
-            var img=document.querySelector("img");
-            main.onchange=function(){
-                img.setAttribute("src",this.value);
-            }
-</script>
     <title>《全品基础小练习》物理</title>
     <style>
         html,body{
@@ -95,7 +88,14 @@ var main=document.querySelector("select");
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_1eee83436065792c2c67114482d8e2ab.jpg">186</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_a299f620288819c621143ba2a99835ce.jpg">187</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_7edf6a1fee22dc8e1344b1f4b2d110fa.jpg">188</option>
-        </select>
+</select>
+        <script>
+            var main=document.querySelector("select");
+            var img=document.querySelector("img");
+            main.onchange=function(){
+                img.setAttribute("src",this.value);
+            }
+        </script>
 </div>
 
 <br></br>

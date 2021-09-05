@@ -9,7 +9,7 @@ body{
     background-attachment: fixed;
 }
 .type1{
-    font-family: Roboto;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 300%;
     font-weight: 1000;
     color: rgba(0,133,255,1.00);

@@ -32,8 +32,8 @@ footer{
     height: 150px; 
 }
 .back{
-    padding: 5px;
-    border-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .top_text{
     margin-top:50px;

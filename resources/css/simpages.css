@@ -24,7 +24,7 @@ footer{
     bottom: 0px;  
     width: 100%; 
 }
-board{
+.board{
     border-radius: 20px;
     background: #73AD21;
     padding: 0px; 

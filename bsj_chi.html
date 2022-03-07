@@ -4,34 +4,32 @@
     <meta charset="utf-8">
     <link href=".\resources\css\bootstrap.css" rel="stylesheet" type="text/css">
     <link href=".\resources\css\simpages.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/medium.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/regular.css" media="print" onload="this.media='all'">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"> </script>
     <title>《高考必刷卷42套》语文</title>
-    <style>
-        html,body{
-            background: url(https://gitee.com/dmaker/shorttimeweb/raw/master/resources/images/bg.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            height:80%;
-        }
-	.answer{
-		    width:740px;
-		    height:1092px;
-	}
-        footer{
-        position: relative;
-        }
-    </style>
+<style>
+body{
+    background: url(https://gitee.com/dmaker/shorttimeweb/raw/master/resources/images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:80%;
+}
+ </style>
 </head>
 
-<body>
-<div class="top_text type1">《高考必刷卷42套》语文</div>
+<body >
+<div class="top-text type1">《高考必刷卷42套》语文</div>
 <p>
-    <a class="shadow-lg back text-center text-primary bg-white text-decoration-none fixed-top" href="./index.html">返回主页</a>
+    <a class="shadow-lg back text-center text-primary bg-white text-decoration-none" href="./index.html">返回主页</a>
 </p>
 <div  class="text-center text-primary p-3 bg-white text-decoration-none">
-    <img class="answer bg-dark shadow-lg p-3 rounded" src="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_de356d3697b035d49872ed5bc1d1ae77.jpg"/></answer>
+    <img class="answer bg-dark shadow-lg p-3 rounded-3" src="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_de356d3697b035d49872ed5bc1d1ae77.jpg"/></img>
     <br>
-    <select>
+<div class="row justify-content-center switcher">
+    <div id="pre" class="left-btn btn col-1 bg-dark text-white shadow-lg rounded-pill"><</div>
+    <select id="page" class="page col-2 bg-dark text-center text-white shadow-lg rounded-pill">
         <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_de356d3697b035d49872ed5bc1d1ae77.jpg">1</option>
         <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_39200ce3474749d88321a6b9fd2787aa.jpg">2</option>
         <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_fdab5dc1ec28729ff42d9a4ed3da8132.jpg">3</option>
@@ -137,23 +135,15 @@
         <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_8e086fb4c454c33d273b1fabe2120f49.jpg">103</option>
         <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_d54de2a97f818b6fb9427cd5ba673230.jpg">104</option>
         <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_05a57942f7caa8fceb049247c5a1463f.jpg">105</option>
-        
-</select>
-        <script>
-            var main=document.querySelector("select");
-            var img=document.querySelector("img");
-            main.onchange=function(){
-                img.setAttribute("src",this.value);
-            }
-        </script>
+    </select>
+    <div id="post" class="right-btn btn col-3 bg-dark text-white shadow-lg rounded-pill">></div>
 </div>
-
+</div>
 </body>
-
+<script src=".\resources\js\img_switcher.js"></script>
 <footer>
     <div class="container">
 	    Powered by GitHub Pages<br>
-	    Copyright 2022 Simprole Reserved.</div>
+        Hosted by Simprole</div>
 </footer>
-
 </html>

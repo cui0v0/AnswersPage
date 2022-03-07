@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <link href=".\resources\css\bootstrap.css" rel="stylesheet" type="text/css">
     <link href=".\resources\css\simpages.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/medium.css" media="print" onload="this.media='all'">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"> </script>
     <title>《优秀模拟试卷汇编45套》英语</title>
     <style>
         html,body{
@@ -13,25 +15,19 @@
             background-attachment: fixed;
             height:80%;
         }
-	.answer{
-		    width:740px;
-		    height:1092px;
-	}
-        footer{
-        position: relative;
-        }
     </style>
 </head>
 
 <body>
-<div class="top_text type1">《优秀模拟试卷汇编45套》英语</div>
+<div class="top-text type1">《优秀模拟试卷汇编45套》英语</div>
 <p>
-    <a class="shadow-lg back text-center text-primary bg-white text-decoration-none fixed-top" href="./index.html">返回主页</a>
+        <a class="shadow-lg back text-center text-primary bg-white text-decoration-none" href="./index.html">返回主页</a>
 </p>
 <div class="text-center text-primary p-3 bg-white text-decoration-none">
-    <img class="answer bg-dark shadow-lg p-3 rounded" src="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_3dfd453ddb5635cd2e0d7abbaf161160.jpg"/></answer>
-    <br>
-    <select>
+    <img class="answer bg-dark shadow-lg p-3 rounded" src="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_3dfd453ddb5635cd2e0d7abbaf161160.jpg"/></img>
+<div class="row justify-content-center switcher">
+    <div id="pre" class="left-btn btn col-1 bg-dark text-white shadow-lg rounded-pill"><</div>
+    <select id="page" class="page col-2 bg-dark text-center text-white shadow-lg rounded-pill">
         <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_3dfd453ddb5635cd2e0d7abbaf161160.jpg">1</option>
         <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_3adec0df1d1f779bc255166676a41dc1.jpg">2</option>
         <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_dcce1532ee179e2f01436b25a56c60dc.jpg">3</option>
@@ -152,24 +148,16 @@
         <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_fbe2222fcccf234a8660c86737b7553f.jpg">118</option>
         <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_7f9990b083e71dd395adda359ae9f3c9.jpg">119</option>
         <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_889e06770bdcc7ba7e2c56734a4b96a3.jpg">120</option>
-        
-        
-</select>
-        <script>
-            var main=document.querySelector("select");
-            var img=document.querySelector("img");
-            main.onchange=function(){
-                img.setAttribute("src",this.value);
-            }
-        </script>
+    </select>
+    <div id="post" class="right-btn btn col-3 bg-dark text-white shadow-lg rounded-pill">></div>
 </div>
-
+</div>
 </body>
-
+<script src=".\resources\js\img_switcher.js"></script>
 <footer>
     <div class="container">
 	    Powered by GitHub Pages<br>
+        Gif was made by MinecraftForge<br>
 	    Copyright 2022 Simprole Reserved.</div>
 </footer>
-
 </html>

@@ -3,18 +3,13 @@ head{
 }
 body{
     text-align: center;
-    background: url(./resources/images/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-.type1{
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 300%;
-    font-weight: 1000;
-    color: rgba(0,133,255,1.00);
+    font-family: HarmonyOS_Medium;
 }
 footer{
+    position: relative;
     font-style: normal;
     font-size: 3mm;
     clear: both;  
@@ -32,10 +27,32 @@ footer{
     height: 150px; 
 }
 .back{
-    padding: 5px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    padding:10px;
+    border-radius: 50rem;
 }
-.top_text{
-    margin-top:50px;
+.top-text{
+    font-size: 300%;
+    font-weight: 1000;
+    color: rgba(0,133,255,1.00);
+    margin-bottom:15px;
+    margin-top: 10px;
+}
+.answer{
+    width:740px;
+    height:1092px;
+}
+.left-btn{
+    width:5rem;
+    margin-right: 10px;
+}
+.right-btn{
+    width:5rem;
+    margin-left: 10px;
+}
+.page{
+    width: 20rem
+}
+.switcher{
+    margin-top: 1rem;
+    font-size: large;
 }

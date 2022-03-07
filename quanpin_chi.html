@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <link href=".\resources\css\bootstrap.css" rel="stylesheet" type="text/css">
     <link href=".\resources\css\simpages.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/medium.css" media="print" onload="this.media='all'">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"> </script>
     <title>《全品高考复习方案》语文</title>
     <style>
         html,body{
@@ -13,26 +15,20 @@
             background-attachment: fixed;
             height:80%;
         }
-	.answer{
-		    width:740px;
-		    height:1092px;
-	}
-        footer{
-        position: relative;
-        }
     </style>
 </head>
 
 <body>
-<div class="top_text type1">《全品高考复习方案》语文</div>
+<div class="top-text type1">《全品高考复习方案》语文</div>
 <p>
-    <a class="shadow-lg back text-center text-primary bg-white text-decoration-none fixed-top" href="./index.html">返回主页</a>
+    <a class="shadow-lg back text-center text-primary bg-white text-decoration-none" href="./index.html">返回主页</a>
 </p>
 <div class="text-center text-primary p-3 bg-white text-decoration-none">
-  <img class="answer bg-dark shadow-lg p-3 rounded" src="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_f7a5d8ef003bb940b2ba39f32eac73e7.jpg"/>
-        <br>
-	<select>
-<option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_f7a5d8ef003bb940b2ba39f32eac73e7.jpg">377【听课手册】</option>
+  <img class="answer bg-dark shadow-lg p-3 rounded" src="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_f7a5d8ef003bb940b2ba39f32eac73e7.jpg"/></img>
+<div class="row justify-content-center switcher">
+    <div id="pre" class="left-btn btn col-1 bg-dark text-white shadow-lg rounded-pill"><</div>
+	<select id="page" class="page col-2 bg-dark text-center text-white shadow-lg rounded-pill" >
+<option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_f7a5d8ef003bb940b2ba39f32eac73e7.jpg">377</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_d023f27e19b4f97cfeae67f60ea00952.jpg">378</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_177c213c04171b96dd0d89a40148bb23.jpg">379</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_1cac8da8e1441b3bde941d560f1b0b57.jpg">380</option>
@@ -68,7 +64,7 @@
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_8c627256b70d8974b9a3274dc4b97521.jpg">410</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_e0711a883584e2552a808d8b0f6f0cea.jpg">411</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_ac419a0ffac3967904697b8ebb7b1595.jpg">412</option>
-<option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_6d37fb9f8e65da8b919703728b4d19c6.jpg">413【作业手册】</option>
+<option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_6d37fb9f8e65da8b919703728b4d19c6.jpg">413</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_045df12669d1df60c91d457194733f92.jpg">414</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_dca484db977af5d0450d7ef748db1d49.jpg">415</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_8519c085feeaf2ef165b8ee0ee41becd.jpg">416</option>
@@ -86,19 +82,12 @@
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_19c89cdea0822325a29a85d2f005adf3.jpg">428</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_a336f613a73da2d12d4fe487e4e6b191.jpg">429</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_56331eaebb30a1ede5321aafa0a891e3.jpg">430</option>
-        </select>
-        <script>
-            var main=document.querySelector("select");
-            var img=document.querySelector("img");
-            main.onchange=function(){
-                img.setAttribute("src",this.value);
-            }
-        </script>
+    </select>
+    <div id="post" class="right-btn btn col-3 bg-dark text-white shadow-lg rounded-pill">></div>
 </div>
-
-<br></br>
+</div>
 </body>
-
+<script src=".\resources\js\img_switcher.js"></script>
 <footer>
     <div class="container">
 	    Powered by GitHub Pages<br>

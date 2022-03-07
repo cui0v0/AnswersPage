@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <link href=".\resources\css\bootstrap.css" rel="stylesheet" type="text/css">
     <link href=".\resources\css\simpages.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/medium.css" media="print" onload="this.media='all'">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"> </script>
     <title>《全品选考复习方案》物理</title>
     <style>
         html,body{
@@ -13,25 +15,19 @@
             background-attachment: fixed;
             height:80%;
         }
-	.answer{
-		    width:740px;
-		    height:1092px;
-	}
-        footer{
-        position: relative;
-        }
     </style>
 </head>
 
 <body>
-<div class="top_text type1">《全品选考复习方案》物理</div>
+<div class="top-text type1">《全品选考复习方案》物理</div>
 <p>
-    <a class="shadow-lg back text-center text-primary bg-white text-decoration-none fixed-top" href="./index.html">返回主页</a>
+    <a class="shadow-lg back text-center text-primary bg-white text-decoration-none" href="./index.html">返回主页</a>
 </p>
 <div class="text-center text-primary p-3 bg-white text-decoration-none">
-  <img class="answer bg-dark shadow-lg p-3 rounded" src="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_8f43f87881446398c8060f0943f590b9.jpg"/>
-        <br>
-        <select>
+  <img class="answer bg-dark shadow-lg p-3 rounded" src="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_8f43f87881446398c8060f0943f590b9.jpg"/></img>
+<div class="row justify-content-center switcher">
+    <div id="pre" class="left-btn btn col-1 bg-dark text-white shadow-lg rounded-pill"><</div>
+        <select id="page" class="page col-2 bg-dark text-center text-white shadow-lg rounded-pill">
             <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_8f43f87881446398c8060f0943f590b9.jpg">377</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_93f1464cf8fb623faca4e14c62ed3390.jpg">378</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_e92961894b39b351ee45157e5594ddfb.jpg">379</option>
@@ -102,23 +98,17 @@
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_2a95a86d1cb6a51b47d6ced74e4385c5.jpg">444</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_53e9ce9cc7b56c82e8ed08901632b621.jpg">445</option>
 <option value="http://kd02-1253445850.file.myqcloud.com/scanimg/scan_3864791e78f8565b42238b94cb5ea7d9.jpg">446</option>
-        </select>
-        <script>
-            var main=document.querySelector("select");
-            var img=document.querySelector("img");
-            main.onchange=function(){
-                img.setAttribute("src",this.value);
-            }
-        </script>
+    </select>
+    <div id="post" class="right-btn btn col-3 bg-dark text-white shadow-lg rounded-pill">></div>
 </div>
-
-<br></br>
+</div>
+<script src=".\resources\js\img_switcher.js"></script>
 </body>
 
 <footer>
     <div class="container">
 	    Powered by GitHub Pages<br>
-	    Copyright 2022 Simprole Reserved.</div>
+	    Hosted by Simprole.</div>
 </footer>
 
 </html>

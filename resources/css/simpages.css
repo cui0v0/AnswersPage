@@ -7,6 +7,9 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: HarmonyOS_Medium;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 footer{
     position: relative;
@@ -58,4 +61,33 @@ footer{
 .switcher{
     margin-top: 1rem;
     font-size: large;
+    text-align: center;
+    text-align-last: center;
+}
+.bottom-text{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 130%;
+}
+.bottom-index{
+    padding-top: 8rem;
+}
+.title{
+    -webkit-text-stroke: 0.15px rgba(0,0,0,1.00);
+    color: rgba(0,133,255,1.00);
+    font-size: 150%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.card-gap{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-border{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.card-title{
+    font-size: 150%;
 }
